@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [Unreleased](first-commit-link)
+## [v0.1.0 (2020-05-25)](https://github.com/pestphp/pest-plugin-faker/commit/27dc911b08e4297dc697c71af8ec39cd6c4dfa3e)
 ### Added
 - First version
+
