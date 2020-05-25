@@ -1,6 +1,6 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "pestphp/pest-plugin-faker",
+    "description": "The Pest Faker Plugin",
     "keywords": [
         "php",
         "framework",
@@ -13,12 +13,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
-        "pestphp/pest": "^0.1"
+        "fzaninotto/faker": "^1.9",
+        "pestphp/pest": "^0.1.2"
     },
     "autoload": {
-        "psr-4": {
-            "Pest\\PluginName\\": "src/"
-        }
+        "files": ["src/InteractsWithFaker.php"]
     },
     "require-dev": {
         "ergebnis/phpstan-rules": "^0.14.4",
