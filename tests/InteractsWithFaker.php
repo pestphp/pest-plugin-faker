@@ -6,5 +6,8 @@ it('has faker')
 it('has fakerWithLocale')
     ->assertTrue(function_exists('fakerWithLocale'));
 
-it('can use faker methods')
+it('can use faker instance')
     ->assertIsString(faker()->name);
+
+it('can use fakerWithLocale instance')
+    ->assertIsString(fakerWithLocale('fr_FR')->name);
