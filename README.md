@@ -14,6 +14,7 @@
 > **Note:** This repository contains the Pest Faker plugin. If you want to start testing your application with Pest, visit the main [Pest repository](https://github.com/pestphp/pest).
 
 - Explore the docs: **[pestphp.com »](https://pestphp.com)**
+- Explore the docs for this plugin: **[Faker Plugin Docs »](https://pestphp.com/docs/plugins/faker/)**
 - Follow us on Twitter: **[@pestphp »](https://twitter.com/pestphp)**
 - Join us on the Discord Server: **[discord.gg/bMAJv82 »](https://discord.gg/bMAJv82)**
 
