@@ -14,9 +14,12 @@
     "require": {
         "php": "^7.3",
         "fzaninotto/faker": "^1.9",
-        "pestphp/pest": "^0.1.2"
+        "pestphp/pest": "^0.2"
     },
     "autoload": {
+        "psr-4": {
+            "Pest\\Faker\\": "src/"
+        },
         "files": ["src/InteractsWithFaker.php"]
     },
     "require-dev": {
