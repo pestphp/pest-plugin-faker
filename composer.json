@@ -14,10 +14,13 @@
     "require": {
         "php": "^7.3",
         "fzaninotto/faker": "^1.9",
-        "pestphp/pest": "^0.1.2"
+        "pestphp/pest": "^0.2"
     },
     "autoload": {
-        "files": ["src/InteractsWithFaker.php"]
+        "psr-4": {
+            "Pest\\Faker\\": "src/"
+        },
+        "files": ["src/Faker.php"]
     },
     "require-dev": {
         "ergebnis/phpstan-rules": "^0.14.4",
