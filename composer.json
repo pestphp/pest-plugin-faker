@@ -20,7 +20,7 @@
         "psr-4": {
             "Pest\\Faker\\": "src/"
         },
-        "files": ["src/InteractsWithFaker.php"]
+        "files": ["src/Faker.php"]
     },
     "require-dev": {
         "ergebnis/phpstan-rules": "^0.14.4",
