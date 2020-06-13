@@ -6,10 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [v0.1.1 (2020-05-25)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.0...v0.1.1)
+## [v0.2.0 (2020-06-14)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.1...v0.2.0)
 ### Changed
-- Update to provide a single faker function ([#3](https://github.com/pestphp/pest-plugin-faker/pull/3))
-
+- Use namespaced functions
 
 ## [v0.1.1 (2020-05-25)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.0...v0.1.1)
 ### Changed
