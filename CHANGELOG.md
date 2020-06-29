@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [v0.2.0 (2020-06-14)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.1...v0.2.0)
 ### Changed
-- Use namespaced functions
+- Use namespaced functions ([#4](https://github.com/pestphp/pest-plugin-faker/pull/4))
 
 ## [v0.1.1 (2020-05-25)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.0...v0.1.1)
 ### Changed
