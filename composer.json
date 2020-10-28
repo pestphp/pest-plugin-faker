@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3 || ^8.0",
-        "fzaninotto/faker": "^1.9.1",
+        "fakerphp/faker": "^1.10",
         "pestphp/pest": "^0.3"
     },
     "autoload": {
