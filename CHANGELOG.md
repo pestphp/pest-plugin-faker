@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.3.1 (2020-10-29)](https://github.com/pestphp/pest-plugin-faker/compare/v0.3.0...v0.3.1)
+### Changed
+- Update to use FakerPHP/Faker ([#6](https://github.com/pestphp/pest-plugin-faker/pull/6))
+
 ## [v0.3.0 (2020-08-25)](https://github.com/pestphp/pest-plugin-faker/compare/v0.2.0...v0.3.0)
 ### Added
-- Support to Pest v0.3
+- Support for Pest v0.3 ([c21d0e9](https://github.com/pestphp/pest-plugin-faker/commit/c21d0e9960ee1b953f8bea873d96f4f456249872))
+- Support for PHP 8 ([#5](https://github.com/pestphp/pest-plugin-faker/pull/5))
 
 ## [v0.2.0 (2020-06-14)](https://github.com/pestphp/pest-plugin-faker/compare/v0.1.1...v0.2.0)
 ### Changed
