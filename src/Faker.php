@@ -7,8 +7,10 @@ namespace Pest\Faker;
 use Faker\Factory;
 use Faker\Generator;
 
-/** @phpstan-ignore-next-line */
-function faker(string $locale = null): Generator
-{
-    return Factory::create($locale ?? Factory::DEFAULT_LOCALE);
+if (!function_exists('Pest\Faker\faker')) {
+    /** @phpstan-ignore-next-line */
+    function faker(string $locale = null): Generator
+    {
+        return Factory::create($locale ?? Factory::DEFAULT_LOCALE);
+    }
 }
