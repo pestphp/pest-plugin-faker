@@ -9,8 +9,8 @@ use Faker\Generator;
 
 if (!function_exists('Pest\Faker\faker')) {
     /** @phpstan-ignore-next-line */
-    function faker(string $locale = null): Generator
+    function faker(string $locale = Factory::DEFAULT_LOCALE): Generator
     {
-        return Factory::create($locale ?? Factory::DEFAULT_LOCALE);
+        return Factory::create($locale);
     }
 }
