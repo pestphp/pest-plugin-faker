@@ -14,8 +14,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.3 || ^8.0",
-        "fakerphp/faker": "^1.9.1",
-        "pestphp/pest": "^1.0"
+        "fakerphp/faker": "^1.20",
+        "pestphp/pest": "^1.22.1"
     },
     "autoload": {
         "psr-4": {
@@ -24,13 +24,16 @@
         "files": ["src/Faker.php"]
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "dev-master"
+        "pestphp/pest-dev-tools": "^1.0.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "scripts": {
         "lint": "php-cs-fixer fix -v",
