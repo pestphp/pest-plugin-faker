@@ -1,12 +1,12 @@
 <?php
 
-use function Pest\Faker\faker;
+use function Pest\Faker\fake;
 
 it('has faker')
-    ->assertTrue(function_exists('Pest\Faker\faker'));
+    ->assertTrue(function_exists('Pest\Faker\fake'));
 
 it('can use faker instance')
-    ->assertIsString(faker()->name);
+    ->assertIsString(fake()->name);
 
 it('can use faker with locale instance')
-    ->assertIsString(faker('fr_FR')->name);
+    ->assertIsString(fake('fr_FR')->name);
