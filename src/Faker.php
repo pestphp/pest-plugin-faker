@@ -7,7 +7,7 @@ namespace Pest\Faker;
 use Faker\Factory;
 use Faker\Generator;
 
-if (!function_exists('Pest\Faker\faker')) {
+if (! function_exists('Pest\Faker\faker')) {
     function faker(string $locale = Factory::DEFAULT_LOCALE): Generator
     {
         return Factory::create($locale);
