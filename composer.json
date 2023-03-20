@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "fakerphp/faker": "^1.20.0",
+        "fakerphp/faker": "^1.21.0",
         "pestphp/pest": "^2.0.0"
     },
     "autoload": {
@@ -24,7 +24,7 @@
         "files": ["src/Faker.php"]
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "^2.0.0"
+        "pestphp/pest-dev-tools": "^2.5.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
