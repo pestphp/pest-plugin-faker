@@ -15,7 +15,7 @@
     "require": {
         "php": "^8.4",
         "fakerphp/faker": "^1.24.1",
-        "pestphp/pest": "^4.0.0"
+        "pestphp/pest": "^5.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -24,7 +24,7 @@
         "files": ["src/Faker.php"]
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "^4.0.0"
+        "pestphp/pest-dev-tools": "^5.0.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
